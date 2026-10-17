@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+
+
+
+.box{
+    width: 300px;
+    height: 300px;
+}
+
+.red{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red p{
+    text-align: center;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.flex{
+    height: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
