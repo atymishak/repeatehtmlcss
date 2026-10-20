@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+    padding: 30px 0;
+    font-size: 26px;
+}
+nav ul a{
+    color: white;
+}
+#section-home{
+    background-color: lightblue;
+}
+#section-about{
+    background-color: lightcoral;
+}
+#section-info{
+background-color: lightgreen;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
