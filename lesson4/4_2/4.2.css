@@ -1,0 +1,9 @@
+.rectangle{
+    width: 400px;
+    height: 400px;
+    border-radius: 49px;
+    border: 10px solid black;
+    background: plum;
+    box-shadow: 0 4px 4px 0 black;
+    margin: 116px auto 0 auto;
+}
