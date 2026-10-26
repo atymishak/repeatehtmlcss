@@ -1,0 +1,10 @@
+label{
+    display:block}
+form sup{color:red}
+input{
+    margin-bottom: 10px;
+}
+textarea{
+    resize: none;
+    width: 150px;
+}
