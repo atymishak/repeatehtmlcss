@@ -1,0 +1,27 @@
+label{
+    display:block}
+form sup{color:red}
+input{
+    margin-bottom: 10px;
+}
+textarea{
+    resize: none;
+    width: 150px;
+}
+.form-registration{
+    border: 3px solid blueviolet;
+    width: 30%;
+    border-radius: 70px;
+    padding: 50px;
+}
+input[type=text]{
+    background-color: #C6B2DA;
+    border: 2px solid #896ba8;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-family: "Orbitron", sans-serif;
+
+}
+input[type=text]:focus{
+    outline: 2px solid blueviolet;
+}
