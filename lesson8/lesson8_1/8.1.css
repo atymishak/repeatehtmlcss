@@ -1,0 +1,22 @@
+.container{
+    display:flex;
+    justify-content:space-around;
+   /* align-items:center;*/
+    height: 50vh;
+    background-color: aqua;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.item1{
+    align-self: flex-start;
+}
+.item2{
+    align-self: center;
+}
+.item3{
+    align-self: flex-end;
+}
