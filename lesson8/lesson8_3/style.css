@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+header,footer{
+    width: 100%;
+    height: 20vh;
+    background-color: lightgrey;
+
+}
+body{
+    font-size: 20px;
+}
+.wrapper{
+    width: 100%;
+    display:flex;
+
+}
+main{
+    height: 60vh;
+    width: 70%;
+    background-color: rosybrown;
+}
+aside{
+    height: 60vh;
+    width: 30%;
+    background-color: lightgreen;
+}
+section{
+    display: none;
+}
+header p::after{
+    content: "desktop ";
+
+}
+main, aside, footer{
+    font-size: 1.3em;
+}
